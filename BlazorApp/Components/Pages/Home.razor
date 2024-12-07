@@ -1,16 +1,22 @@
 ﻿@page "/"
 @using ClassLibrary
+@using ClassLibrary2
 
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, world!</h1>
 
-<p>Hello @person.FirstName @person.LastName</p>
+<p>Hello @person.FirstName @person.LastName of @company.Name</p>
 
 @code {
     private Person person = new()
         {
             FirstName = "John",
             LastName = "Doe"
+        };
+
+    private Company company = new()
+        {
+            Name = "Microsoft"
         };
 }

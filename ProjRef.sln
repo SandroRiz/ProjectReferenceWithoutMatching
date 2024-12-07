@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp", "BlazorApp\Blaz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{AB50E438-93ED-4C41-B2AC-3D18ADB73C8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary2", "ClassLibrary2\ClassLibrary2.csproj", "{C2D2AD51-B0A5-4B20-8ECC-123DE32C9B7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AB50E438-93ED-4C41-B2AC-3D18ADB73C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB50E438-93ED-4C41-B2AC-3D18ADB73C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB50E438-93ED-4C41-B2AC-3D18ADB73C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D2AD51-B0A5-4B20-8ECC-123DE32C9B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D2AD51-B0A5-4B20-8ECC-123DE32C9B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D2AD51-B0A5-4B20-8ECC-123DE32C9B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D2AD51-B0A5-4B20-8ECC-123DE32C9B7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
